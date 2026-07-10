@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-label="TreeMap — a full-featured disk-space analyzer for macOS, Windows and Linux. 135+ stars on GitHub.">
+  <defs>
+    <linearGradient id="metal2" x1="0" y1="0" x2="1" y2="0.25">
+      <stop offset="0" stop-color="#f5f5f7"/>
+      <stop offset="0.55" stop-color="#c8ccd8"/>
+      <stop offset="1" stop-color="#8e93a6"/>
+    </linearGradient>
+    <radialGradient id="gBlue2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2b46b8"/>
+      <stop offset="1" stop-color="#2b46b8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="panelClip">
+      <rect x="600" y="90" width="330" height="280" rx="22"/>
+    </clipPath>
+    <clipPath id="frame2">
+      <rect width="1000" height="460" rx="28"/>
+    </clipPath>
+  </defs>
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif}
+    @keyframes twinkle2{0%,100%{opacity:.12}50%{opacity:.8}}
+    .st{animation:twinkle2 4s ease-in-out infinite}
+    @keyframes pulse2{0%,100%{opacity:.3}50%{opacity:.55}}
+    .glow{animation:pulse2 7s ease-in-out infinite}
+    @keyframes dotp{0%,100%{opacity:.35}50%{opacity:1}}
+    .dot{animation:dotp 2.4s ease-in-out infinite}
+    .starp{animation:dotp 2s ease-in-out infinite}
+    @keyframes floaty2{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    .panel{animation:floaty2 8s ease-in-out infinite}
+    @keyframes breathe{0%,100%{opacity:.55}50%{opacity:1}}
+    .bl{animation:breathe 5s ease-in-out infinite}
+    .d1{animation-delay:0s}.d2{animation-delay:.7s}.d3{animation-delay:1.4s}.d4{animation-delay:2.1s}.d5{animation-delay:2.8s}.d6{animation-delay:3.5s}
+    @keyframes fadeup2{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}
+    .bf{opacity:0;animation:fadeup2 .8s cubic-bezier(.25,.1,.25,1) forwards}
+    .f1{animation-delay:.3s}.f2{animation-delay:.45s}.f3{animation-delay:.6s}.f4{animation-delay:.75s}.f5{animation-delay:.9s}.f6{animation-delay:1.05s}
+    @keyframes sweep2{0%{transform:translateX(0)}55%,100%{transform:translateX(560px)}}
+    .scan{animation:sweep2 6s ease-in-out infinite}
+    @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+    .go{animation:nudge 1.8s ease-in-out infinite}
+  </style>
+  <g clip-path="url(#frame2)">
+    <rect width="1000" height="460" fill="#000000"/>
+    <g fill="#ffffff">
+      <circle class="st" cx="80" cy="55" r="1.2"/>
+      <circle class="st" cx="300" cy="70" r="1" style="animation-delay:-1.6s"/>
+      <circle class="st" cx="480" cy="45" r="1.3" style="animation-delay:-2.8s"/>
+      <circle class="st" cx="180" cy="420" r="1.1" style="animation-delay:-.9s"/>
+      <circle class="st" cx="420" cy="430" r="1" style="animation-delay:-2.2s"/>
+      <circle class="st" cx="540" cy="400" r="1.2" style="animation-delay:-3.4s"/>
+      <circle class="st" cx="960" cy="60" r="1.2" style="animation-delay:-1.2s"/>
+      <circle class="st" cx="945" cy="415" r="1" style="animation-delay:-2.6s"/>
+    </g>
+    <ellipse class="glow" cx="765" cy="230" rx="240" ry="180" fill="url(#gBlue2)" opacity="0.4"/>
+    <circle class="dot" cx="74" cy="100" r="3.5" fill="#2997ff"/>
+    <text x="88" y="105" font-size="12" font-weight="600" letter-spacing="3" fill="#86868b">FEATURED PROJECT</text>
+    <text x="70" y="160" font-size="42" font-weight="700" fill="url(#metal2)" letter-spacing="-0.5">TreeMap</text>
+    <text x="70" y="194" font-size="18" fill="#2997ff">Disk space, made visible.</text>
+    <text x="70" y="230" font-size="15" fill="#a1a1a6">A full-featured disk-space analyzer for macOS, Windows and</text>
+    <text x="70" y="254" font-size="15" fill="#a1a1a6">Linux — see what is eating your drive, then clean it up.</text>
+    <text x="70" y="286" font-size="15" fill="#86868b">Hand-built with TypeScript + Node. No frontend frameworks.</text>
+    <g>
+      <rect x="70" y="316" width="130" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <text class="starp" x="86" y="337" font-size="13" fill="#2997ff">★</text>
+      <text x="102" y="336" font-size="13" fill="#d5d5da">135+ stars</text>
+      <rect x="212" y="316" width="96" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <text x="260" y="336" text-anchor="middle" font-size="13" fill="#d5d5da">10 forks</text>
+      <rect x="320" y="316" width="112" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <text x="376" y="336" text-anchor="middle" font-size="13" fill="#d5d5da">TypeScript</text>
+    </g>
+    <g class="go">
+      <text x="70" y="398" font-size="15" font-weight="600" fill="#2997ff">→  View TreeMap on GitHub</text>
+    </g>
+    <g class="panel">
+      <rect x="600" y="90" width="330" height="280" rx="22" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.14"/>
+      <g class="bf f1"><g class="bl d1">
+        <rect x="612" y="102" width="186" height="158" rx="8" fill="#2997ff" fill-opacity="0.22" stroke="#2997ff" stroke-opacity="0.5"/>
+        <text x="626" y="126" font-size="11" fill="#ffffff" fill-opacity="0.6">Media</text>
+      </g></g>
+      <g class="bf f2"><g class="bl d2">
+        <rect x="804" y="102" width="114" height="76" rx="8" fill="#7c5cff" fill-opacity="0.24" stroke="#7c5cff" stroke-opacity="0.5"/>
+        <text x="816" y="126" font-size="11" fill="#ffffff" fill-opacity="0.6">Apps</text>
+      </g></g>
+      <g class="bf f3"><g class="bl d3">
+        <rect x="804" y="184" width="114" height="76" rx="8" fill="#2dd4bf" fill-opacity="0.2" stroke="#2dd4bf" stroke-opacity="0.5"/>
+        <text x="816" y="208" font-size="11" fill="#ffffff" fill-opacity="0.6">Docs</text>
+      </g></g>
+      <g class="bf f4"><g class="bl d4">
+        <rect x="612" y="266" width="120" height="92" rx="8" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.3"/>
+        <text x="626" y="290" font-size="11" fill="#ffffff" fill-opacity="0.6">System</text>
+      </g></g>
+      <g class="bf f5"><g class="bl d5">
+        <rect x="738" y="266" width="60" height="92" rx="8" fill="#e0559a" fill-opacity="0.22" stroke="#e0559a" stroke-opacity="0.5"/>
+      </g></g>
+      <g class="bf f6"><g class="bl d6">
+        <rect x="804" y="266" width="114" height="92" rx="8" fill="#2997ff" fill-opacity="0.13" stroke="#2997ff" stroke-opacity="0.35"/>
+        <text x="816" y="290" font-size="11" fill="#ffffff" fill-opacity="0.6">Other</text>
+      </g></g>
+      <g clip-path="url(#panelClip)">
+        <g class="scan">
+          <rect x="520" y="80" width="70" height="300" fill="url(#sheen2)" transform="skewX(-14)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

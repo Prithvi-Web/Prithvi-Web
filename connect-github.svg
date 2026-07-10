@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="72" viewBox="0 0 320 72" role="img" aria-label="Follow on GitHub">
+  <defs>
+    <linearGradient id="shG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pillG">
+      <rect x="1" y="1" width="318" height="70" rx="35"/>
+    </clipPath>
+  </defs>
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif}
+    @keyframes sweepG{0%{transform:translateX(0)}60%,100%{transform:translateX(480px)}}
+    .sh{animation:sweepG 4.2s ease-in-out infinite;animation-delay:2.1s}
+    @keyframes starG{0%,100%{opacity:.55}50%{opacity:1}}
+    .stp{animation:starG 2s ease-in-out infinite}
+    @keyframes nudgeG{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+    .ar{animation:nudgeG 1.8s ease-in-out infinite}
+  </style>
+  <rect x="1" y="1" width="318" height="70" rx="35" fill="#000000" stroke="#ffffff" stroke-opacity="0.16"/>
+  <text class="stp" x="30" y="45" font-size="20" fill="#2997ff">★</text>
+  <text x="62" y="42" font-size="15" font-weight="600" fill="#f5f5f7">Follow on GitHub</text>
+  <g class="ar">
+    <text x="272" y="42" font-size="16" fill="#2997ff">→</text>
+  </g>
+  <g clip-path="url(#pillG)">
+    <g class="sh">
+      <rect x="-120" y="0" width="80" height="72" fill="url(#shG)" transform="skewX(-14)"/>
+    </g>
+  </g>
+</svg>
