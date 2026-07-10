@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="Toolkit: HTML, CSS, JavaScript, TypeScript, Node.js, Git and GitHub">
+  <defs>
+    <radialGradient id="gBlue3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2b46b8"/>
+      <stop offset="1" stop-color="#2b46b8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame3">
+      <rect width="1000" height="250" rx="28"/>
+    </clipPath>
+  </defs>
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif}
+    @keyframes twinkle3{0%,100%{opacity:.12}50%{opacity:.8}}
+    .st{animation:twinkle3 4.4s ease-in-out infinite}
+    @keyframes pulse3{0%,100%{opacity:.25}50%{opacity:.45}}
+    .glow{animation:pulse3 8s ease-in-out infinite}
+    @keyframes fl3{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    .fl{animation:fl3 5.5s ease-in-out infinite}
+    @keyframes glowc{0%,10%{stroke:#2997ff;stroke-opacity:.85;fill-opacity:.13}17%,100%{stroke:#ffffff;stroke-opacity:.13;fill-opacity:.06}}
+    .gc{animation:glowc 8.4s linear infinite}
+    @keyframes fadein3{0%{opacity:0}100%{opacity:1}}
+    .sub{opacity:0;animation:fadein3 1.2s ease .9s forwards}
+  </style>
+  <g clip-path="url(#frame3)">
+    <rect width="1000" height="250" fill="#000000"/>
+    <g fill="#ffffff">
+      <circle class="st" cx="90" cy="200" r="1.2"/>
+      <circle class="st" cx="240" cy="45" r="1" style="animation-delay:-1.8s"/>
+      <circle class="st" cx="700" cy="40" r="1.2" style="animation-delay:-3s"/>
+      <circle class="st" cx="890" cy="210" r="1.1" style="animation-delay:-.7s"/>
+      <circle class="st" cx="950" cy="90" r="1" style="animation-delay:-2.4s"/>
+      <circle class="st" cx="480" cy="220" r="1" style="animation-delay:-1.2s"/>
+    </g>
+    <ellipse class="glow" cx="500" cy="290" rx="380" ry="120" fill="url(#gBlue3)" opacity="0.35"/>
+    <text x="500" y="66" text-anchor="middle" font-size="12" font-weight="600" letter-spacing="3" fill="#86868b">TOOLKIT</text>
+    <g class="fl">
+      <rect class="gc" x="120" y="98" width="90" height="44" rx="22" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <text x="165" y="125" text-anchor="middle" font-size="15" fill="#d5d5da">HTML</text>
+    </g>
+    <g class="fl" style="animation-delay:-1s">
+      <rect class="gc" x="224" y="98" width="80" height="44" rx="22" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13" style="animation-delay:1.4s"/>
+      <text x="264" y="125" text-anchor="middle" font-size="15" fill="#d5d5da">CSS</text>
+    </g>
+    <g class="fl" style="animation-delay:-2s">
+      <rect class="gc" x="318" y="98" width="130" height="44" rx="22" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13" style="animation-delay:2.8s"/>
+      <text x="383" y="125" text-anchor="middle" font-size="15" fill="#d5d5da">JavaScript</text>
+    </g>
+    <g class="fl" style="animation-delay:-3s">
+      <rect class="gc" x="462" y="98" width="130" height="44" rx="22" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13" style="animation-delay:4.2s"/>
+      <text x="527" y="125" text-anchor="middle" font-size="15" fill="#d5d5da">TypeScript</text>
+    </g>
+    <g class="fl" style="animation-delay:-4s">
+      <rect class="gc" x="606" y="98" width="110" height="44" rx="22" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13" style="animation-delay:5.6s"/>
+      <text x="661" y="125" text-anchor="middle" font-size="15" fill="#d5d5da">Node.js</text>
+    </g>
+    <g class="fl" style="animation-delay:-5s">
+      <rect class="gc" x="730" y="98" width="150" height="44" rx="22" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13" style="animation-delay:7s"/>
+      <text x="805" y="125" text-anchor="middle" font-size="15" fill="#d5d5da">Git · GitHub</text>
+    </g>
+    <text class="sub" x="500" y="200" text-anchor="middle" font-size="15" fill="#6e6e73">Everything hand-built — I like knowing exactly how things work.</text>
+  </g>
+</svg>
