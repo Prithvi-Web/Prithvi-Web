@@ -107,9 +107,9 @@
     </g><g class="fu-rp" style="animation-delay:0.6s">
       <rect x="56" y="306" width="888" height="50" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.14"/>
       <text x="82" y="337" text-anchor="middle" font-size="13" font-weight="700" fill="#86868b">05</text>
-      <circle cx="108" cy="332" r="4" fill="#7b3fb0"/>
+      <circle cx="108" cy="332" r="4" fill="#3b4fc8"/>
       <text x="122" y="328" font-size="14.5" font-weight="600" fill="#e8e8ed">Prithvi-Web</text>
-      <text x="122" y="345" font-size="10.5" fill="#86868b">updated 14d ago</text>
+      <text x="122" y="345" font-size="10.5" fill="#86868b">JavaScript  ·  updated today</text>
       <rect x="470" y="328" width="220" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.06"/>
       
       <text x="744" y="338" text-anchor="end" font-size="11" fill="#86868b">—</text>
