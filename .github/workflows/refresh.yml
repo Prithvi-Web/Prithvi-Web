@@ -1,0 +1,61 @@
+name: Refresh dashboard
+
+# Rebuilds the animated panels in assets/ from live GitHub data.
+# Nothing is committed unless a real number actually moved.
+
+on:
+  schedule:
+    - cron: '17 */6 * * *' # every 6 hours, off the hour to dodge peak load
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/refresh.yml'
+  workflow_dispatch: # lets you rebuild on demand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-dashboard
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # No dependencies to install — the build uses only Node built-ins.
+      - name: Test
+        run: node scripts/test.mjs
+
+      - name: Build panels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: |
+          set -o pipefail   # without this, tee would swallow a build failure
+          node scripts/build.mjs | tee /tmp/build.log
+          {
+            echo '### Dashboard refresh'
+            echo '```'
+            cat /tmp/build.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit if the data moved
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes — dashboard already current."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Refresh dashboard data"
+          git push

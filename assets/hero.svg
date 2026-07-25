@@ -1,117 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-label="Prithvi Vinay — student builder, shipping real products">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-label="Prithvi Vinay — student builder shipping real products. 338 stars, 26 followers, 8 public repositories, last pushed today">
   <defs>
-    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0.25">
-      <stop offset="0" stop-color="#f5f5f7"/>
-      <stop offset="0.55" stop-color="#c8ccd8"/>
-      <stop offset="1" stop-color="#8e93a6"/>
-    </linearGradient>
-    <radialGradient id="gBlue" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#2b46b8"/>
-      <stop offset="1" stop-color="#2b46b8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="gViolet" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#5f3dc4"/>
-      <stop offset="1" stop-color="#5f3dc4" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <linearGradient id="metal-hr" x1="0" y1="0" x2="1" y2="0.25">
+        <stop offset="0" stop-color="#f5f5f7"/><stop offset="0.55" stop-color="#c8ccd8"/><stop offset="1" stop-color="#8e93a6"/>
+      </linearGradient>
+      <radialGradient id="glow-hr" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0" stop-color="#2b46b8"/><stop offset="1" stop-color="#2b46b8" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="violet-hr" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0" stop-color="#5f3dc4"/><stop offset="1" stop-color="#5f3dc4" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="topline-hr" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.35"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="av-hr" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#3c3c42"/><stop offset="1" stop-color="#101013"/>
+      </linearGradient>
+      <linearGradient id="sheen-hr" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.14"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="avatarGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#3c3c42"/>
-      <stop offset="1" stop-color="#101013"/>
-    </linearGradient>
-    <clipPath id="cardClip">
-      <rect x="190" y="100" width="620" height="200" rx="26"/>
-    </clipPath>
-    <clipPath id="frame">
-      <rect width="1000" height="400" rx="28"/>
-    </clipPath>
-  </defs>
+      <clipPath id="frame-hr"><rect width="1000" height="360" rx="28"/></clipPath>
+      <clipPath id="card-hr"><rect x="170" y="92" width="660" height="196" rx="26"/></clipPath></defs>
   <style>
-    text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif}
-    @keyframes twinkle{0%,100%{opacity:.12}50%{opacity:.85}}
-    .st{animation:twinkle 3.6s ease-in-out infinite}
-    .st2{animation:twinkle 4.8s ease-in-out infinite}
-    .st3{animation:twinkle 6s ease-in-out infinite}
-    @keyframes pulse{0%,100%{opacity:.55}50%{opacity:.85}}
-    .glow{animation:pulse 7s ease-in-out infinite}
-    @keyframes driftv{0%,100%{transform:translate(0,0)}50%{transform:translate(36px,14px)}}
-    .violet{animation:driftv 12s ease-in-out infinite}
-    @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
-    .card{animation:floaty 7s ease-in-out infinite}
-    @keyframes sweep{0%{transform:translateX(0)}60%,100%{transform:translateX(950px)}}
-    .sheen{animation:sweep 5.5s ease-in-out infinite}
-    @keyframes fadeup{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}
-    .pf{opacity:0;animation:fadeup .9s cubic-bezier(.25,.1,.25,1) forwards}
-    .p1{animation-delay:1.5s}.p2{animation-delay:1.8s}.p3{animation-delay:2.1s}
-  </style>
-  <g clip-path="url(#frame)">
-    <rect width="1000" height="400" fill="#000000"/>
-    <g fill="#ffffff">
-      <circle class="st" cx="60" cy="60" r="1.4"/>
-      <circle class="st2" cx="130" cy="180" r="1"/>
-      <circle class="st3" cx="90" cy="320" r="1.3"/>
-      <circle class="st2" cx="210" cy="50" r="1.1" style="animation-delay:-2s"/>
-      <circle class="st" cx="300" cy="345" r="1" style="animation-delay:-1s"/>
-      <circle class="st3" cx="360" cy="60" r="1.2" style="animation-delay:-3s"/>
-      <circle class="st" cx="450" cy="35" r="1.5" style="animation-delay:-2.4s"/>
-      <circle class="st2" cx="520" cy="360" r="1" style="animation-delay:-.8s"/>
-      <circle class="st" cx="600" cy="55" r="1.1" style="animation-delay:-1.7s"/>
-      <circle class="st3" cx="668" cy="340" r="1.4" style="animation-delay:-4s"/>
-      <circle class="st2" cx="720" cy="40" r="1" style="animation-delay:-2.8s"/>
-      <circle class="st" cx="800" cy="330" r="1.2" style="animation-delay:-.5s"/>
-      <circle class="st3" cx="860" cy="150" r="1" style="animation-delay:-1.4s"/>
-      <circle class="st" cx="905" cy="60" r="1.4" style="animation-delay:-3.2s"/>
-      <circle class="st2" cx="940" cy="250" r="1.2" style="animation-delay:-2.2s"/>
-      <circle class="st3" cx="955" cy="350" r="1" style="animation-delay:-.9s"/>
-      <circle class="st2" cx="40" cy="240" r="1.1" style="animation-delay:-3.6s"/>
-      <circle class="st" cx="160" cy="285" r="1" style="animation-delay:-2.1s"/>
-      <circle class="st3" cx="255" cy="60" r="1" style="animation-delay:-1.2s"/>
-      <circle class="st2" cx="845" cy="300" r="1.3" style="animation-delay:-4.4s"/>
-    </g>
-    <ellipse class="glow" cx="500" cy="430" rx="340" ry="150" fill="url(#gBlue)" opacity="0.7"/>
-    <ellipse class="violet" cx="150" cy="-20" rx="220" ry="130" fill="url(#gViolet)" opacity="0.28"/>
-    <circle cx="858" cy="86" r="58" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1" stroke-dasharray="6 10">
-      <animateTransform attributeName="transform" type="rotate" values="0 858 86;360 858 86" dur="32s" repeatCount="indefinite"/>
+    text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif;font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+    @keyframes tw-hr{0%,100%{opacity:.12}50%{opacity:.85}}
+    .st-hr{animation:tw-hr 4.2s ease-in-out infinite}
+    @keyframes pl-hr{0%,100%{opacity:.45}50%{opacity:.75}}
+    .gl-hr{animation:pl-hr 8s ease-in-out infinite}
+    @keyframes fu-hr{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:translateY(0)}}
+    .fu-hr{animation:fu-hr .8s cubic-bezier(.25,.1,.25,1) both}
+    @keyframes fi-hr{0%{opacity:0}100%{opacity:1}}
+    .fi-hr{animation:fi-hr .7s ease-out both}
+    @keyframes fl-hr{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    .fl-hr{animation:fl-hr 6.5s ease-in-out infinite}
+  
+      @keyframes dv-hr{0%,100%{transform:translate(0,0)}50%{transform:translate(36px,14px)}}
+      .vi-hr{animation:dv-hr 12s ease-in-out infinite}
+      @keyframes fc-hr{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      .card-hr{animation:fc-hr 7s ease-in-out infinite}
+      @keyframes sw-hr{0%{transform:translateX(0)}60%,100%{transform:translateX(950px)}}
+      .sh-hr{animation:sw-hr 5.5s ease-in-out infinite}</style>
+
+  <g clip-path="url(#frame-hr)">
+    <rect width="1000" height="360" fill="#000000"/>
+    <g fill="#ffffff"><circle class="st-hr" cx="542" cy="78" r="1.4" style="animation-delay:-3.4s"/><circle class="st-hr" cx="368" cy="93" r="1.2" style="animation-delay:-2.9s"/><circle class="st-hr" cx="501" cy="97" r="1.2" style="animation-delay:-4s"/><circle class="st-hr" cx="716" cy="87" r="1.2" style="animation-delay:-0.8s"/><circle class="st-hr" cx="399" cy="248" r="1.3" style="animation-delay:-2.5s"/><circle class="st-hr" cx="228" cy="292" r="1" style="animation-delay:-3.8s"/><circle class="st-hr" cx="901" cy="5" r="1.5" style="animation-delay:-3.7s"/><circle class="st-hr" cx="349" cy="221" r="1.2" style="animation-delay:-2.8s"/><circle class="st-hr" cx="10" cy="215" r="1.1" style="animation-delay:-1.7s"/><circle class="st-hr" cx="140" cy="114" r="1.3" style="animation-delay:-1.8s"/><circle class="st-hr" cx="302" cy="337" r="1.3" style="animation-delay:-1.1s"/><circle class="st-hr" cx="529" cy="28" r="1.3" style="animation-delay:-0.4s"/><circle class="st-hr" cx="758" cy="125" r="1.4" style="animation-delay:-0.4s"/><circle class="st-hr" cx="274" cy="157" r="1" style="animation-delay:-1.2s"/><circle class="st-hr" cx="674" cy="43" r="1.4" style="animation-delay:-1.7s"/><circle class="st-hr" cx="63" cy="283" r="1.1" style="animation-delay:-0.8s"/><circle class="st-hr" cx="119" cy="131" r="1.3" style="animation-delay:-3.5s"/><circle class="st-hr" cx="339" cy="313" r="1.3" style="animation-delay:-2.7s"/><circle class="st-hr" cx="840" cy="164" r="1.1" style="animation-delay:-3.1s"/><circle class="st-hr" cx="946" cy="155" r="1.5" style="animation-delay:-1.1s"/><circle class="st-hr" cx="579" cy="101" r="1.1" style="animation-delay:-0.3s"/><circle class="st-hr" cx="410" cy="45" r="1.2" style="animation-delay:-2.4s"/></g>
+    <ellipse class="gl-hr" cx="500" cy="400" rx="350" ry="150" fill="url(#glow-hr)" opacity="0.7"/>
+    <ellipse class="vi-hr" cx="150" cy="-20" rx="220" ry="130" fill="url(#violet-hr)" opacity="0.28"/>
+
+    <circle cx="866" cy="80" r="58" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1" stroke-dasharray="6 10">
+      <animateTransform attributeName="transform" type="rotate" values="0 866 80;360 866 80" dur="32s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="858" cy="86" r="40" fill="none" stroke="#2997ff" stroke-opacity="0.14" stroke-width="1" stroke-dasharray="3 14">
-      <animateTransform attributeName="transform" type="rotate" values="360 858 86;0 858 86" dur="24s" repeatCount="indefinite"/>
+    <circle cx="866" cy="80" r="40" fill="none" stroke="#2997ff" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="3 14">
+      <animateTransform attributeName="transform" type="rotate" values="360 866 80;0 866 80" dur="24s" repeatCount="indefinite"/>
     </circle>
-    <g class="card">
-      <rect x="190" y="100" width="620" height="200" rx="26" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.14"/>
-      <rect x="230" y="100" width="540" height="1" fill="url(#topline)"/>
-      <circle cx="270" cy="165" r="30" fill="url(#avatarGrad)" stroke="#ffffff" stroke-opacity="0.22"/>
-      <text x="270" y="171" text-anchor="middle" font-size="17" font-weight="600" fill="#e8e8ed">PV</text>
-      <text x="320" y="158" font-size="34" font-weight="700" fill="url(#metal)" letter-spacing="-0.5">Prithvi Vinay</text>
-      <mask id="reveal">
-        <rect x="320" y="168" width="0" height="26" fill="#ffffff">
+
+    <g class="card-hr">
+      <rect x="170" y="92" width="660" height="196" rx="26" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.14"/>
+      <rect x="210" y="92" width="580" height="1" fill="url(#topline-hr)"/>
+
+      <circle cx="232" cy="152" r="30" fill="url(#av-hr)" stroke="#ffffff" stroke-opacity="0.22"/>
+      <text x="232" y="158" text-anchor="middle" font-size="17" font-weight="600" fill="#e8e8ed">PV</text>
+
+      <text x="282" y="146" font-size="34" font-weight="700" fill="url(#metal-hr)" letter-spacing="-0.5">Prithvi Vinay</text>
+      <mask id="rv-hr">
+        <rect x="282" y="158" width="340" height="26" fill="#ffffff">
           <animate attributeName="width" values="0;340" begin="0.6s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1"/>
         </rect>
       </mask>
-      <text x="320" y="187" font-size="16" fill="#86868b" mask="url(#reveal)">Student builder · shipping real products</text>
-      <g class="pf p1">
-        <rect x="240" y="222" width="152" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
-        <text x="316" y="242" text-anchor="middle" font-size="13" fill="#d5d5da">★ TreeMap · 135+ stars</text>
-      </g>
-      <g class="pf p2">
-        <rect x="404" y="222" width="196" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
-        <text x="502" y="242" text-anchor="middle" font-size="13" fill="#d5d5da">Hand-built, start to finish</text>
-      </g>
-      <g class="pf p3">
-        <rect x="612" y="222" width="168" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
-        <text x="696" y="242" text-anchor="middle" font-size="13" fill="#d5d5da">macOS · Windows · Linux</text>
-      </g>
-      <g clip-path="url(#cardClip)">
-        <g class="sheen">
-          <rect x="60" y="80" width="90" height="240" fill="url(#sheen)" transform="skewX(-14)"/>
-        </g>
+      <text x="282" y="177" font-size="16" fill="#86868b" mask="url(#rv-hr)">Student builder · shipping real products</text>
+
+      <g class="fu-hr" style="animation-delay:1.45s">
+      <rect x="282" y="214" width="100" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <text x="332" y="234" text-anchor="middle" font-size="12.5" fill="#d5d5da">★ 338 stars</text>
+    </g><g class="fu-hr" style="animation-delay:1.61s">
+      <rect x="392" y="214" width="106" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <text x="445" y="234" text-anchor="middle" font-size="12.5" fill="#d5d5da">26 followers</text>
+    </g><g class="fu-hr" style="animation-delay:1.77s">
+      <rect x="508" y="214" width="73" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <text x="544.5" y="234" text-anchor="middle" font-size="12.5" fill="#d5d5da">8 repos</text>
+    </g><g class="fu-hr" style="animation-delay:1.93s">
+      <rect x="591" y="214" width="106" height="32" rx="16" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <text x="644" y="234" text-anchor="middle" font-size="12.5" fill="#d5d5da">pushed today</text>
+    </g>
+
+      <g clip-path="url(#card-hr)">
+        <g class="sh-hr"><rect x="40" y="70" width="90" height="240" fill="url(#sheen-hr)" transform="skewX(-14)"/></g>
       </g>
     </g>
   </g>

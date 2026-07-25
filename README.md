@@ -1,29 +1,37 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Prithvi Vinay — student builder, shipping real products" />
+<img src="assets/hero.svg?v=5ba0a052" width="100%" alt="Prithvi Vinay — student builder, shipping real products" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=5ba0a052" width="100%" alt="" />
 
-<a href="https://github.com/Prithvi-Web/TreeMap-Disk-Visualizer">
-  <img src="assets/treemap.svg" width="100%" alt="TreeMap — a full-featured disk-space analyzer for macOS, Windows and Linux. 135+ stars on GitHub. Hand-built with TypeScript + Node, no frontend frameworks." />
+<img src="assets/stats.svg?v=5ba0a052" width="100%" alt="Live counters: stars earned, forks, followers, public repositories, contributions this year and longest streak" />
+
+<img src="assets/heatmap.svg?v=5ba0a052" width="100%" alt="Live GitHub contribution graph for the last year, with current streak, longest streak and busiest day" />
+
+<img src="assets/activity.svg?v=5ba0a052" width="100%" alt="Commit activity over the last 52 weeks, with a four-week trend line" />
+
+<img src="assets/languages.svg?v=5ba0a052" width="100%" alt="Language breakdown by bytes across every public repository" />
+
+<a href="https://github.com/Prithvi-Web?tab=repositories">
+  <img src="assets/repos.svg?v=5ba0a052" width="100%" alt="Top repositories ranked by stars, with each project's share of total stars" />
 </a>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/skills.svg?v=5ba0a052" width="100%" alt="Toolkit — languages by bytes shipped, plus tools and platforms" />
 
-<img src="assets/skills.svg" width="100%" alt="Toolkit: HTML, CSS, JavaScript, TypeScript, Node.js, Git and GitHub" />
+<img src="assets/divider.svg?v=5ba0a052" width="100%" alt="" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<img src="assets/stats.svg" width="100%" alt="By the numbers: 135+ GitHub stars, 10 forks on TreeMap, 3 platforms shipped, 100% hand-built" />
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-<a href="https://www.linkedin.com/in/prithvi-vinay-8276a33a2/"><img src="assets/connect-linkedin.svg" height="64" alt="Connect on LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/prithvi-vinay-8276a33a2/"><img src="assets/connect-linkedin.svg?v=5ba0a052" height="64" alt="Connect on LinkedIn" /></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://github.com/Prithvi-Web"><img src="assets/connect-github.svg" height="64" alt="Follow on GitHub" /></a>
+<a href="https://github.com/Prithvi-Web"><img src="assets/connect-github.svg?v=5ba0a052" height="64" alt="Follow on GitHub" /></a>
 
 <br /><br />
 
-<img src="assets/footer.svg" width="100%" alt="Real products. No shortcuts. — Prithvi Vinay" />
+<img src="assets/footer.svg?v=5ba0a052" width="100%" alt="Real products. No shortcuts. — dashboard rebuilt automatically from the GitHub API" />
 
 </div>
+
+<!--
+  Every panel above is generated from live GitHub data by scripts/build.mjs and
+  refreshed by .github/workflows/refresh.yml. Do not hand-edit assets/*.svg —
+  the next scheduled run will overwrite them.
+-->
