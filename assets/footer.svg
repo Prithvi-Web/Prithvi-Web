@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="Real products. No shortcuts. Dashboard rebuilt from the GitHub API at 13 Aug 2026, 07:51 UTC, refreshing automatically every 6 hours.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="Real products. No shortcuts. Dashboard rebuilt from the GitHub API at 13 Aug 2026, 13:44 UTC, refreshing automatically every 6 hours.">
   <defs>
     <linearGradient id="metal-ft" x1="0" y1="0" x2="1" y2="0.25">
       <stop offset="0" stop-color="#f5f5f7"/>
@@ -43,7 +43,7 @@
     <text class="fu-ft" x="500" y="62" text-anchor="middle" font-size="24" font-weight="700" fill="url(#metal-ft)" letter-spacing="-0.3" style="animation-delay:.2s">Real products. No shortcuts.</text>
     <g class="fi-ft" style="animation-delay:.7s">
       <circle class="live-ft" cx="352" cy="92" r="3.5" fill="#2997ff"/>
-      <text x="364" y="96" font-size="12" fill="#86868b">Rebuilt from the GitHub API · 13 Aug 2026, 07:51 UTC</text>
+      <text x="364" y="96" font-size="12" fill="#86868b">Rebuilt from the GitHub API · 13 Aug 2026, 13:44 UTC</text>
     </g>
     <text class="fi-ft" x="500" y="122" text-anchor="middle" font-size="11" letter-spacing="1.4" fill="#86868b" style="animation-delay:.9s">REFRESHES AUTOMATICALLY EVERY 6 HOURS</text>
     
