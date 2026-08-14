@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Toolkit — languages: TypeScript, HTML, Python, Rust, Jupyter Notebook, JavaScript. Tools and platforms: Node.js, Git &amp; GitHub, Docker, macOS, Windows, Linux">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Toolkit — languages: TypeScript, Python, HTML, Rust, Jupyter Notebook, JavaScript. Tools and platforms: Node.js, Git &amp; GitHub, Docker, macOS, Windows, Linux">
   <defs>
     <linearGradient id="metal-sk" x1="0" y1="0" x2="1" y2="0.25">
       <stop offset="0" stop-color="#f5f5f7"/>
@@ -45,13 +45,13 @@
       <circle cx="212.5" cy="119" r="4" fill="#7cc4ff"/>
       <text x="223.5" y="124" font-size="13" fill="#d5d5da">TypeScript</text>
     </g><g class="fu-sk" style="animation-delay:0.39s">
-      <rect x="310.5" y="100" width="62" height="38" rx="19" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <rect x="310.5" y="100" width="77" height="38" rx="19" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
       <circle cx="327.5" cy="119" r="4" fill="#2997ff"/>
-      <text x="338.5" y="124" font-size="13" fill="#d5d5da">HTML</text>
+      <text x="338.5" y="124" font-size="13" fill="#d5d5da">Python</text>
     </g><g class="fu-sk" style="animation-delay:0.48s">
-      <rect x="382.5" y="100" width="77" height="38" rx="19" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
-      <circle cx="399.5" cy="119" r="4" fill="#2b6fe0"/>
-      <text x="410.5" y="124" font-size="13" fill="#d5d5da">Python</text>
+      <rect x="397.5" y="100" width="62" height="38" rx="19" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
+      <circle cx="414.5" cy="119" r="4" fill="#2b6fe0"/>
+      <text x="425.5" y="124" font-size="13" fill="#d5d5da">HTML</text>
     </g><g class="fu-sk" style="animation-delay:0.57s">
       <rect x="469.5" y="100" width="62" height="38" rx="19" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.13"/>
       <circle cx="486.5" cy="119" r="4" fill="#3b4fc8"/>
