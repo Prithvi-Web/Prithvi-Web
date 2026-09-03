@@ -1,32 +1,32 @@
 <div align="center">
 
-<img src="assets/hero.svg?v=3dfe15c4" width="100%" alt="Prithvi Vinay — student builder, shipping real products" />
+<img src="assets/hero.svg?v=bd211b3c" width="100%" alt="Prithvi Vinay — student builder, shipping real products" />
 
-<img src="assets/divider.svg?v=3dfe15c4" width="100%" alt="" />
+<img src="assets/divider.svg?v=bd211b3c" width="100%" alt="" />
 
-<img src="assets/stats.svg?v=3dfe15c4" width="100%" alt="Live counters: stars earned, forks, followers, public repositories, contributions this year and longest streak" />
+<img src="assets/stats.svg?v=bd211b3c" width="100%" alt="Live counters: stars earned, forks, followers, public repositories, contributions this year and longest streak" />
 
-<img src="assets/heatmap.svg?v=3dfe15c4" width="100%" alt="Live GitHub contribution graph for the last year, with current streak, longest streak and busiest day" />
+<img src="assets/heatmap.svg?v=bd211b3c" width="100%" alt="Live GitHub contribution graph for the last year, with current streak, longest streak and busiest day" />
 
-<img src="assets/activity.svg?v=3dfe15c4" width="100%" alt="Commit activity over the last 52 weeks, with a four-week trend line" />
+<img src="assets/activity.svg?v=bd211b3c" width="100%" alt="Commit activity over the last 52 weeks, with a four-week trend line" />
 
-<img src="assets/languages.svg?v=3dfe15c4" width="100%" alt="Language breakdown by bytes across every public repository" />
+<img src="assets/languages.svg?v=bd211b3c" width="100%" alt="Language breakdown by bytes across every public repository" />
 
 <a href="https://github.com/Prithvi-Web?tab=repositories">
-  <img src="assets/repos.svg?v=3dfe15c4" width="100%" alt="Top repositories ranked by stars, with each project's share of total stars" />
+  <img src="assets/repos.svg?v=bd211b3c" width="100%" alt="Top repositories ranked by stars, with each project's share of total stars" />
 </a>
 
-<img src="assets/skills.svg?v=3dfe15c4" width="100%" alt="Toolkit — languages by bytes shipped, plus tools and platforms" />
+<img src="assets/skills.svg?v=bd211b3c" width="100%" alt="Toolkit — languages by bytes shipped, plus tools and platforms" />
 
-<img src="assets/divider.svg?v=3dfe15c4" width="100%" alt="" />
+<img src="assets/divider.svg?v=bd211b3c" width="100%" alt="" />
 
-<a href="https://www.linkedin.com/in/prithvi-vinay-8276a33a2/"><img src="assets/connect-linkedin.svg?v=3dfe15c4" height="64" alt="Connect on LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/prithvi-vinay-8276a33a2/"><img src="assets/connect-linkedin.svg?v=bd211b3c" height="64" alt="Connect on LinkedIn" /></a>
 &nbsp;&nbsp;&nbsp;
-<a href="https://github.com/Prithvi-Web"><img src="assets/connect-github.svg?v=3dfe15c4" height="64" alt="Follow on GitHub" /></a>
+<a href="https://github.com/Prithvi-Web"><img src="assets/connect-github.svg?v=bd211b3c" height="64" alt="Follow on GitHub" /></a>
 
 <br /><br />
 
-<img src="assets/footer.svg?v=3dfe15c4" width="100%" alt="Real products. No shortcuts. — dashboard rebuilt automatically from the GitHub API" />
+<img src="assets/footer.svg?v=bd211b3c" width="100%" alt="Real products. No shortcuts. — dashboard rebuilt automatically from the GitHub API" />
 
 </div>
 
