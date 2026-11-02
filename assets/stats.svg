@@ -1,17 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="292" viewBox="0 0 840 292">
 <defs>
-<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5ac8fa"/><stop offset="1" stop-color="#bf5af2"/></linearGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7dffa1"/><stop offset="1" stop-color="#30d158"/></linearGradient>
+<pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#000" opacity=".35"/></pattern>
 <style>
- text{font-family:-apple-system, "SF Pro Display", "Helvetica Neue", Arial, sans-serif} .t{fill:#f5f5f7;font-weight:700;font-size:20px;letter-spacing:-.4px}
- .l{fill:#86868b;font-size:12px;letter-spacing:.3px} .v{fill:url(#g);font-weight:700;font-size:30px;letter-spacing:-1px}
- .m{font-family:"SF Mono", Menlo, Consolas, monospace} .card{fill:#0b0b0d;stroke:#2c2c2e;stroke-width:1}
+ text{font-family:"SF Mono", Menlo, Consolas, monospace} .t{fill:#30d158;font-weight:700;font-size:17px;letter-spacing:0}
+ .l{fill:#5fae7a;font-size:12px;letter-spacing:.3px} .v{fill:url(#g);font-weight:700;font-size:30px;letter-spacing:-1px}
+ .m{font-family:"SF Mono", Menlo, Consolas, monospace} .card{fill:#040a05;stroke:#0f3d1c;stroke-width:1}
  .pop{animation:pop .7s cubic-bezier(.2,.8,.2,1) both}
  @keyframes pop{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
  
 </style></defs>
 <rect width="840" height="292" rx="22" fill="#000"/>
-<rect x=".5" y=".5" width="839" height="291" rx="21.5" fill="none" stroke="#1c1c1e"/>
-<text class="t" x="24" y="40">GitHub by the numbers</text>
+<rect x=".5" y=".5" width="839" height="291" rx="21.5" fill="none" stroke="#0f3d1c"/>
+<text class="t" x="24" y="40">&gt; github.stats --live</text>
 <g class="pop" style="animation-delay:0.00s"><rect class="card" x="20" y="62" width="152" height="88" rx="16"/><text class="v" x="36" y="106">1,266<tspan font-size="13" fill="#86868b" font-weight="500"></tspan></text><text class="l" x="36" y="130">Stars earned</text></g>
 <g class="pop" style="animation-delay:0.07s"><rect class="card" x="182" y="62" width="152" height="88" rx="16"/><text class="v" x="198" y="106">91<tspan font-size="13" fill="#86868b" font-weight="500"></tspan></text><text class="l" x="198" y="130">Forks</text></g>
 <g class="pop" style="animation-delay:0.14s"><rect class="card" x="344" y="62" width="152" height="88" rx="16"/><text class="v" x="360" y="106">12<tspan font-size="13" fill="#86868b" font-weight="500"></tspan></text><text class="l" x="360" y="130">Public repos</text></g>
@@ -22,4 +23,4 @@
 <g class="pop" style="animation-delay:0.49s"><rect class="card" x="344" y="160" width="152" height="88" rx="16"/><text class="v" x="360" y="204">84<tspan font-size="13" fill="#86868b" font-weight="500"></tspan></text><text class="l" x="360" y="228">Days with commits</text></g>
 <g class="pop" style="animation-delay:0.56s"><rect class="card" x="506" y="160" width="152" height="88" rx="16"/><text class="v" x="522" y="204">3<tspan font-size="13" fill="#86868b" font-weight="500"> days</tspan></text><text class="l" x="522" y="228">Current streak</text></g>
 <g class="pop" style="animation-delay:0.63s"><rect class="card" x="668" y="160" width="152" height="88" rx="16"/><text class="v" x="684" y="204">15<tspan font-size="13" fill="#86868b" font-weight="500"> days</tspan></text><text class="l" x="684" y="228">Longest streak</text></g>
-<circle cx="24" cy="275" r="3" fill="#30d158"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle><text class="l m" x="34" y="279" font-size="10">live data, updated 2026-11-02 06:23 UTC</text></svg>
+<rect width="840" height="292" rx="22" fill="url(#sl)"/><circle cx="24" cy="275" r="3" fill="#30d158"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle><text class="l m" x="34" y="279" font-size="10">LIVE FEED // synced 2026-11-02 06:39 UTC</text></svg>
