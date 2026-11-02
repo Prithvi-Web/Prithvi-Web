@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7dffa1"/><stop offset="1" stop-color="#30d158"/></linearGradient>
+<pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#000" opacity=".35"/></pattern>
+<style>
+ text{font-family:"SF Mono", Menlo, Consolas, monospace} .t{fill:#30d158;font-weight:700;font-size:17px;letter-spacing:0}
+ .l{fill:#5fae7a;font-size:12px;letter-spacing:.3px} .v{fill:url(#g);font-weight:700;font-size:30px;letter-spacing:-1px}
+ .m{font-family:"SF Mono", Menlo, Consolas, monospace} .card{fill:#040a05;stroke:#0f3d1c;stroke-width:1}
+ .pop{animation:pop .7s cubic-bezier(.2,.8,.2,1) both}
+ @keyframes pop{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+ 
+</style></defs>
+<rect width="840" height="200" rx="22" fill="#000"/>
+<rect x=".5" y=".5" width="839" height="199" rx="21.5" fill="none" stroke="#0f3d1c"/>
+<text class="t" x="24" y="40">&gt; cat languages.log</text>
+<clipPath id="c"><rect x="24" y="62" height="16" rx="8"><animate attributeName="width" from="0" to="792" dur="1.6s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect></clipPath>
+<rect x="24" y="62" width="792" height="16" rx="8" fill="#0b140d"/><g clip-path="url(#c)">
+<rect x="24.0" y="62" width="545.7" height="16" fill="#3178c6"/>
+<rect x="569.2" y="62" width="112.4" height="16" fill="#f1e05a"/>
+<rect x="681.1" y="62" width="47.7" height="16" fill="#3572A5"/>
+<rect x="728.2" y="62" width="47.2" height="16" fill="#dea584"/>
+<rect x="774.9" y="62" width="34.0" height="16" fill="#e34c26"/>
+<rect x="808.4" y="62" width="6.8" height="16" fill="#663399"/>
+</g>
+<g class="pop" style="animation-delay:0.80s"><circle cx="29" cy="108" r="5" fill="#3178c6"/><text x="42" y="112" fill="#f5f5f7" font-size="13" font-weight="500">TypeScript</text><text x="154" y="112" fill="#86868b" font-size="13" class="m">68.8%</text></g>
+<g class="pop" style="animation-delay:0.90s"><circle cx="295" cy="108" r="5" fill="#f1e05a"/><text x="308" y="112" fill="#f5f5f7" font-size="13" font-weight="500">JavaScript</text><text x="420" y="112" fill="#86868b" font-size="13" class="m">14.1%</text></g>
+<g class="pop" style="animation-delay:1.00s"><circle cx="561" cy="108" r="5" fill="#3572A5"/><text x="574" y="112" fill="#f5f5f7" font-size="13" font-weight="500">Python</text><text x="686" y="112" fill="#86868b" font-size="13" class="m">6.0%</text></g>
+<g class="pop" style="animation-delay:1.10s"><circle cx="29" cy="138" r="5" fill="#dea584"/><text x="42" y="142" fill="#f5f5f7" font-size="13" font-weight="500">Rust</text><text x="154" y="142" fill="#86868b" font-size="13" class="m">5.9%</text></g>
+<g class="pop" style="animation-delay:1.20s"><circle cx="295" cy="138" r="5" fill="#e34c26"/><text x="308" y="142" fill="#f5f5f7" font-size="13" font-weight="500">HTML</text><text x="420" y="142" fill="#86868b" font-size="13" class="m">4.2%</text></g>
+<g class="pop" style="animation-delay:1.30s"><circle cx="561" cy="138" r="5" fill="#663399"/><text x="574" y="142" fill="#f5f5f7" font-size="13" font-weight="500">CSS</text><text x="686" y="142" fill="#86868b" font-size="13" class="m">0.8%</text></g>
+<rect width="840" height="200" rx="22" fill="url(#sl)"/><circle cx="24" cy="183" r="3" fill="#30d158"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle><text class="l m" x="34" y="187" font-size="10">LIVE FEED // synced 2026-11-02 06:46 UTC</text></svg>

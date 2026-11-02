@@ -1,37 +1,99 @@
 <div align="center">
 
-<img src="assets/hero.svg?v=9212d774" width="100%" alt="Prithvi Vinay — student builder, shipping real products" />
+<img src="assets/hero.svg" alt="Prithvi Vinay" width="100%"/>
 
-<img src="assets/divider.svg?v=9212d774" width="100%" alt="" />
-
-<img src="assets/stats.svg?v=9212d774" width="100%" alt="Live counters: stars earned, forks, followers, public repositories, contributions this year and longest streak" />
-
-<img src="assets/heatmap.svg?v=9212d774" width="100%" alt="Live GitHub contribution graph for the last year, with current streak, longest streak and busiest day" />
-
-<img src="assets/activity.svg?v=9212d774" width="100%" alt="Commit activity over the last 52 weeks, with a four-week trend line" />
-
-<img src="assets/languages.svg?v=9212d774" width="100%" alt="Language breakdown by bytes across every public repository" />
-
-<a href="https://github.com/Prithvi-Web?tab=repositories">
-  <img src="assets/repos.svg?v=9212d774" width="100%" alt="Top repositories ranked by stars, with each project's share of total stars" />
+<a href="https://github.com/Prithvi-Web">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=30D158&center=true&vCenter=true&width=760&height=44&lines=root%40vinay%3A~%23+whoami;Building+software+people+actually+use;Access+granted.+Welcome+to+my+system.;Shipping+late+at+night+and+on+weekends" alt="typing intro"/>
 </a>
 
-<img src="assets/skills.svg?v=9212d774" width="100%" alt="Toolkit — languages by bytes shipped, plus tools and platforms" />
+<br/>
 
-<img src="assets/divider.svg?v=9212d774" width="100%" alt="" />
+<img src="https://img.shields.io/github/followers/Prithvi-Web?style=for-the-badge&labelColor=000000&color=30d158&logo=github" alt="followers"/>
+<img src="https://img.shields.io/github/stars/Prithvi-Web/TreeMap-Disk-Visualizer?style=for-the-badge&labelColor=000000&color=30d158&logo=github" alt="TreeMap stars"/>
+<img src="https://komarev.com/ghpvc/?username=Prithvi-Web&style=for-the-badge&labelColor=000000&color=30d158&label=PROFILE+VIEWS" alt="views"/>
 
-<a href="https://www.linkedin.com/in/prithvi-vinay-8276a33a2/"><img src="assets/connect-linkedin.svg?v=9212d774" height="64" alt="Connect on LinkedIn" /></a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/Prithvi-Web"><img src="assets/connect-github.svg?v=9212d774" height="64" alt="Follow on GitHub" /></a>
+<br/><br/>
 
-<br /><br />
+<img src="assets/decode.svg" alt="decoding" width="100%"/>
 
-<img src="assets/footer.svg?v=9212d774" width="100%" alt="Real products. No shortcuts. — dashboard rebuilt automatically from the GitHub API" />
+<br/><br/>
+
+<img src="assets/everest.svg" alt="Mount Everest drawn out of 0s and 1s" width="100%"/>
+<sub>Everest, Lhotse and Nuptse, drawn one bit at a time</sub>
 
 </div>
 
-<!--
-  Every panel above is generated from live GitHub data by scripts/build.mjs and
-  refreshed by .github/workflows/refresh.yml. Do not hand-edit assets/*.svg —
-  the next scheduled run will overwrite them.
--->
+<br/>
+
+```console
+vinay@github:~$ whoami
+vinay // builder, product thinker
+
+vinay@github:~$ cat now.txt
+open source tools, desktop apps, and a lot of late night experiments
+
+vinay@github:~$ ls projects/
+TreeMap-Disk-Visualizer/   EnvVault/   (and a few things not public yet)
+```
+
+<br/>
+
+<div align="center">
+
+## Live feed
+
+<sub>Everything in this section is regenerated from the GitHub API every hour by a GitHub Action. No stale screenshots.</sub>
+
+<img src="assets/terminal.svg" alt="live terminal" width="100%"/>
+<br/><br/>
+<img src="assets/stats.svg" alt="GitHub stats" width="100%"/>
+<br/><br/>
+<img src="assets/repos.svg" alt="Top repositories" width="100%"/>
+<br/><br/>
+<img src="assets/binary.svg" alt="Stats in binary" width="100%"/>
+<br/><br/>
+<img src="assets/langs.svg" alt="Languages" width="100%"/>
+<br/><br/>
+<img src="assets/activity.svg" alt="Commit activity" width="100%"/>
+
+<br/>
+
+## Bit arcade
+
+<sub>Both games play themselves. Spectator mode only.</sub>
+
+<table align="center">
+<tr>
+<td><img src="assets/pong.svg" alt="autoplay pong" width="420"/></td>
+<td><img src="assets/invaders.svg" alt="bit invaders" width="420"/></td>
+</tr>
+</table>
+
+<br/>
+
+## The snake is hungry
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg"/>
+  <img src="assets/snake.svg" alt="contribution snake" width="100%"/>
+</picture>
+
+<br/>
+
+## Tech stack
+
+<sub>Based on the languages in my repos. Icon names: <a href="https://skillicons.dev">skillicons.dev</a></sub>
+
+<img src="https://skillicons.dev/icons?i=ts,js,py,rust,html,css,git,github&theme=dark&perline=8" alt="tech stack"/>
+
+<br/><br/>
+
+## Streak
+
+<img src="https://streak-stats.demolab.com?user=Prithvi-Web&theme=dark&hide_border=false&background=000000&ring=30D158&fire=30D158&currStreakNum=EAFFF0&currStreakLabel=30D158&sideNums=EAFFF0&sideLabels=30D158&dates=5FAE7A&stroke=0F3D1C&border=0F3D1C" alt="streak" width="70%"/>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=30d158&height=110&section=footer" width="100%" alt=""/>
+
+</div>
