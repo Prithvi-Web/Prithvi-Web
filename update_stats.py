@@ -138,24 +138,26 @@ def compute(u):
 def head(w, h, extra_css=""):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
 <defs>
-<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5ac8fa"/><stop offset="1" stop-color="#bf5af2"/></linearGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7dffa1"/><stop offset="1" stop-color="#30d158"/></linearGradient>
+<pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#000" opacity=".35"/></pattern>
 <style>
- text{{font-family:{FONT}}} .t{{fill:#f5f5f7;font-weight:700;font-size:20px;letter-spacing:-.4px}}
- .l{{fill:#86868b;font-size:12px;letter-spacing:.3px}} .v{{fill:url(#g);font-weight:700;font-size:30px;letter-spacing:-1px}}
- .m{{font-family:{MONO}}} .card{{fill:#0b0b0d;stroke:#2c2c2e;stroke-width:1}}
+ text{{font-family:{MONO}}} .t{{fill:#30d158;font-weight:700;font-size:17px;letter-spacing:0}}
+ .l{{fill:#5fae7a;font-size:12px;letter-spacing:.3px}} .v{{fill:url(#g);font-weight:700;font-size:30px;letter-spacing:-1px}}
+ .m{{font-family:{MONO}}} .card{{fill:#040a05;stroke:#0f3d1c;stroke-width:1}}
  .pop{{animation:pop .7s cubic-bezier(.2,.8,.2,1) both}}
  @keyframes pop{{from{{opacity:0;transform:translateY(14px)}}to{{opacity:1;transform:none}}}}
  {extra_css}
 </style></defs>
 <rect width="{w}" height="{h}" rx="22" fill="#000"/>
-<rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="21.5" fill="none" stroke="#1c1c1e"/>'''
+<rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="21.5" fill="none" stroke="#0f3d1c"/>'''
 
 
 def stamp(w, h):
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    return (f'<circle cx="24" cy="{h - 17}" r="3" fill="#30d158"><animate attributeName="opacity" '
+    return (f'<rect width="{w}" height="{h}" rx="22" fill="url(#sl)"/>'
+            f'<circle cx="24" cy="{h - 17}" r="3" fill="#30d158"><animate attributeName="opacity" '
             f'values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle>'
-            f'<text class="l m" x="34" y="{h - 13}" font-size="10">live data, updated {now}</text></svg>')
+            f'<text class="l m" x="34" y="{h - 13}" font-size="10">LIVE FEED // synced {now}</text></svg>')
 
 
 def fmt(n):
@@ -173,7 +175,7 @@ def stats_svg(m):
              ("Followers", m["followers"]), ("Contributions, 1y", m["contribs"]),
              ("Commits, 1y", m["commits"]), ("Pull requests", m["prs"]), ("Days with commits", m["active"]),
              ("Current streak", m["cur"]), ("Longest streak", m["longest"])]
-    o = [head(W, H), f'<text class="t" x="24" y="40">GitHub by the numbers</text>']
+    o = [head(W, H), f'<text class="t" x="24" y="40">&gt; github.stats --live</text>']
     tw, gap = 152, 10
     for i, (label, val) in enumerate(tiles):
         r, c = divmod(i, 5)
@@ -196,7 +198,7 @@ def repos_svg(m):
     top = m["top"]
     rows = (len(top) + 1) // 2 or 1
     W, H = 840, 70 + rows * 116 + 30
-    o = [head(W, H), '<text class="t" x="24" y="40">Top repositories</text>']
+    o = [head(W, H), '<text class="t" x="24" y="40">&gt; ls top_repos --by-stars</text>']
     for i, r in enumerate(top):
         rr, c = divmod(i, 2)
         x, y = 20 + c * 410, 62 + rr * 116
@@ -215,11 +217,11 @@ def repos_svg(m):
 
 def langs_svg(m):
     W, H = 840, 200
-    o = [head(W, H), '<text class="t" x="24" y="40">Languages</text>']
+    o = [head(W, H), '<text class="t" x="24" y="40">&gt; cat languages.log</text>']
     bx, by, bw, bh = 24, 62, 792, 16
     o.append(f'<clipPath id="c"><rect x="{bx}" y="{by}" height="{bh}" rx="8"><animate attributeName="width" '
              f'from="0" to="{bw}" dur="1.6s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect></clipPath>')
-    o.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="8" fill="#1c1c1e"/><g clip-path="url(#c)">')
+    o.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="8" fill="#0b140d"/><g clip-path="url(#c)">')
     x = bx
     for name, frac, color in m["langs"]:
         w = bw * frac
@@ -243,7 +245,7 @@ def activity_svg(m):
     cell, gap, x0, y0 = 12, 3, 30, 66
     W, H = x0 + 53 * (cell + gap) + 20, y0 + 7 * (cell + gap) + 70
     mx = max([d["contributionCount"] for d in days] + [1])
-    pal = ["#1c1c1e", "#0e4429", "#006d32", "#26a641", "#39d353"]
+    pal = ["#0b140d", "#0e4429", "#006d32", "#26a641", "#39d353"]
 
     def lvl(n):
         if n == 0:
@@ -252,7 +254,7 @@ def activity_svg(m):
 
     o = [head(W, H, ".c{transform-box:fill-box;transform-origin:center;animation:cp .5s ease-out both}"
                     "@keyframes cp{0%{opacity:0;transform:scale(.2)}70%{transform:scale(1.25)}100%{opacity:1;transform:scale(1)}}"),
-         f'<text class="t" x="24" y="40">Commit activity, last year</text>',
+         f'<text class="t" x="24" y="40">&gt; git log --heatmap --1y</text>',
          f'<text class="l" x="{W - 24}" y="40" text-anchor="end">best day: {m["best"]["contributionCount"]} on {m["best"]["date"]}</text>']
     for i, d in enumerate(days):
         idx = i + lead
@@ -265,6 +267,67 @@ def activity_svg(m):
     write("activity.svg", "\n".join(o))
 
 
+def terminal_svg(m):
+    """A fake 'hacking' terminal that types out your real numbers."""
+    W, H, P = 840, 292, 16.0
+    g, soft = "#30d158", "#5fae7a"
+    lines = [
+        ("$ ssh -i ~/.ssh/vinay github.com", g),
+        ("Connecting to github.com ............ [ OK ]", soft),
+        ("> bypassing firewall ................ [ OK ]", soft),
+        (f"> repos: {fmt(m['repos'])}   stars: {fmt(m['stars'])}   followers: {fmt(m['followers'])}", g),
+        (f"> contributions 1y: {fmt(m['contribs'])}   commits: {fmt(m['commits'])}", g),
+        (f"> streak: {m['cur']} days   longest: {m['longest']} days   active days: {m['active']}", g),
+        ("> ACCESS GRANTED", "#eafff0"),
+    ]
+    css = [".blink{animation:bl 1s steps(1) infinite} @keyframes bl{50%{opacity:0}}"]
+    clips, texts = [], []
+    for i, (txt, color) in enumerate(lines):
+        s = 3 + i * 10.5
+        e = s + 4 + 0.12 * len(txt)
+        wpx = 9.0 * len(txt) + 10
+        y = 74 + i * 26
+        css.append(f".c{i}{{animation:ty{i} {P}s steps({len(txt)},end) infinite}} "
+                   f"@keyframes ty{i}{{0%,{s:.1f}%{{width:0}}{e:.1f}%,93%{{width:{wpx:.0f}px}}100%{{width:0}}}}")
+        clips.append(f'<clipPath id="k{i}"><rect class="c{i}" x="26" y="{y - 16}" height="22" width="{wpx:.0f}"/></clipPath>')
+        texts.append(f'<text xml:space="preserve" x="28" y="{y}" fill="{color}" font-size="15" clip-path="url(#k{i})">{escape(txt)}</text>')
+    o = [head(W, H, "".join(css)), *clips,
+         '<rect x="0" y="0" width="840" height="44" rx="22" fill="#07120a"/><rect x="0" y="22" width="840" height="22" fill="#07120a"/>',
+         '<circle cx="28" cy="22" r="6" fill="#ff5f57"/><circle cx="48" cy="22" r="6" fill="#febc2e"/><circle cx="68" cy="22" r="6" fill="#28c840"/>',
+         '<text x="420" y="27" text-anchor="middle" font-size="12" fill="#5fae7a">vinay@github: ~/live</text>',
+         *texts,
+         '<text x="28" y="258" font-size="15" fill="#30d158">$ <tspan class="blink">_</tspan></text>']
+    o.append(stamp(W, H))
+    write("terminal.svg", "\n".join(o))
+
+
+def binary_svg(m):
+    """Your stats as rows of glowing binary LEDs."""
+    rows = [("stars", m["stars"]), ("commits_1y", m["commits"]), ("contribs_1y", m["contribs"]),
+            ("active_days", m["active"]), ("followers", m["followers"]), ("repos", m["repos"])]
+    nb = max(10, max(v for _, v in rows).bit_length())
+    W, H = 840, 70 + len(rows) * 36 + 36
+    sp, x0 = min(34.0, 470.0 / nb), 200
+    css = ".on{filter:url(#lg);animation:pu 2.6s ease-in-out infinite} @keyframes pu{50%{opacity:.5}}"
+    o = [head(W, H, css),
+         '<filter id="lg" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.5" result="b"/>'
+         '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
+         '<text class="t" x="24" y="40">&gt; echo $STATS | bc -b</text>']
+    for r, (label, val) in enumerate(rows):
+        y = 78 + r * 36
+        o.append(f'<text class="l" x="24" y="{y + 5}" font-size="13">{label}</text>')
+        for b in range(nb):
+            bit = (val >> (nb - 1 - b)) & 1
+            x = x0 + b * sp
+            if bit:
+                o.append(f'<circle class="on" style="animation-delay:{random.uniform(0, 2.6):.2f}s" cx="{x:.1f}" cy="{y}" r="8" fill="#30d158"/>')
+            else:
+                o.append(f'<circle cx="{x:.1f}" cy="{y}" r="8" fill="#050d07" stroke="#0f3d1c"/>')
+        o.append(f'<text x="{W - 24}" y="{y + 6}" text-anchor="end" font-size="16" font-weight="700" fill="#eafff0">{fmt(val)}</text>')
+    o.append(stamp(W, H))
+    write("binary.svg", "\n".join(o))
+
+
 if __name__ == "__main__":
     user = demo() if "--demo" in sys.argv else fetch()
     m = compute(user)
@@ -272,4 +335,6 @@ if __name__ == "__main__":
     repos_svg(m)
     langs_svg(m)
     activity_svg(m)
+    terminal_svg(m)
+    binary_svg(m)
     print(f"ok: {m['stars']} stars, {m['active']} active days, streak {m['cur']}/{m['longest']}")

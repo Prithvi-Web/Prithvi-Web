@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+<defs>
+<pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#000" opacity=".4"/></pattern>
+<radialGradient id="vig" cx="0.5" cy="0.5" r="0.75"><stop offset="0.6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".85"/></radialGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+ text{font-family:"SF Mono", "JetBrains Mono", Menlo, Consolas, "Courier New", monospace} .h{font-size:12px;fill:#30d158;letter-spacing:1.5px}
+ .blink{animation:bl 1s steps(1) infinite} @keyframes bl{50%{opacity:0}}
+ 
+ .bx{animation:bx 2.3s linear infinite alternate} .by{animation:by 1.55s linear infinite alternate}
+ @keyframes bx{from{transform:translateX(0)}to{transform:translateX(504px)}}
+ @keyframes by{from{transform:translateY(0)}to{transform:translateY(190px)}}
+ .ball{font-size:24px;font-weight:700;fill:#eafff0;text-anchor:middle;filter:url(#glow)}
+ .pad{fill:#30d158;filter:url(#glow)}
+</style></defs>
+<rect width="600" height="300" rx="20" fill="#000"/>
+<text class="h" x="22" y="28">&gt; pong.exe // AUTOPLAY</text><text class="h" x="578" y="28" text-anchor="end">0x7F : 0x3B</text><rect x="14" y="40" width="572" height="246" fill="none" stroke="#0f3d1c"/><line x1="300.0" y1="44" x2="300.0" y2="282" stroke="#0f3d1c" stroke-dasharray="6 8"/><g class="by"><rect class="pad" x="22" y="37.0" width="8" height="46" rx="3"/></g><g class="by" style="animation-delay:.09s"><rect class="pad" x="570" y="37.0" width="8" height="46" rx="3"/></g><g class="bx" style="animation-delay:0.135s"><g class="by" style="animation-delay:0.135s"><text class="ball" x="48" y="68" style="opacity:0.12">1</text></g></g><g class="bx" style="animation-delay:0.090s"><g class="by" style="animation-delay:0.090s"><text class="ball" x="48" y="68" style="opacity:0.22">1</text></g></g><g class="bx" style="animation-delay:0.045s"><g class="by" style="animation-delay:0.045s"><text class="ball" x="48" y="68" style="opacity:0.4">0</text></g></g><g class="bx"><g class="by"><text class="ball" x="48" y="68">1</text></g></g>
+<rect width="600" height="300" rx="20" fill="url(#sl)"/>
+<rect width="600" height="300" rx="20" fill="url(#vig)"/>
+<rect x=".5" y=".5" width="599" height="299" rx="19.5" fill="none" stroke="#0f3d1c"/>
+</svg>
