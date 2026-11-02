@@ -16,45 +16,45 @@
 <text class="t" x="24" y="40">&gt; echo $STATS | bc -b</text>
 <text class="l" x="24" y="83" font-size="13">stars</text>
 <circle cx="200.0" cy="78" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:2.44s" cx="234.0" cy="78" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.71s" cx="234.0" cy="78" r="8" fill="#30d158"/>
 <circle cx="268.0" cy="78" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="302.0" cy="78" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:2.59s" cx="336.0" cy="78" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:1.54s" cx="370.0" cy="78" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:0.04s" cx="404.0" cy="78" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:0.77s" cx="438.0" cy="78" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.53s" cx="336.0" cy="78" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:2.07s" cx="370.0" cy="78" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.17s" cx="404.0" cy="78" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:2.18s" cx="438.0" cy="78" r="8" fill="#30d158"/>
 <circle cx="472.0" cy="78" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="506.0" cy="78" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:1.84s" cx="540.0" cy="78" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.44s" cx="540.0" cy="78" r="8" fill="#30d158"/>
 <circle cx="574.0" cy="78" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <text x="816" y="84" text-anchor="end" font-size="16" font-weight="700" fill="#eafff0">1,266</text>
 <text class="l" x="24" y="119" font-size="13">commits_1y</text>
-<circle class="on" style="animation-delay:2.12s" cx="200.0" cy="114" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.48s" cx="200.0" cy="114" r="8" fill="#30d158"/>
 <circle cx="234.0" cy="114" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:0.49s" cx="268.0" cy="114" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:1.92s" cx="268.0" cy="114" r="8" fill="#30d158"/>
 <circle cx="302.0" cy="114" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:1.99s" cx="336.0" cy="114" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:0.81s" cx="370.0" cy="114" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:1.21s" cx="404.0" cy="114" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:0.96s" cx="438.0" cy="114" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:0.26s" cx="472.0" cy="114" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:2.57s" cx="336.0" cy="114" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:1.64s" cx="370.0" cy="114" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.00s" cx="404.0" cy="114" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:2.46s" cx="438.0" cy="114" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.97s" cx="472.0" cy="114" r="8" fill="#30d158"/>
 <circle cx="506.0" cy="114" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:2.18s" cx="540.0" cy="114" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:1.79s" cx="574.0" cy="114" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:1.30s" cx="540.0" cy="114" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.65s" cx="574.0" cy="114" r="8" fill="#30d158"/>
 <text x="816" y="120" text-anchor="end" font-size="16" font-weight="700" fill="#eafff0">2,811</text>
 <text class="l" x="24" y="155" font-size="13">contribs_1y</text>
-<circle class="on" style="animation-delay:0.91s" cx="200.0" cy="150" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.19s" cx="200.0" cy="150" r="8" fill="#30d158"/>
 <circle cx="234.0" cy="150" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:2.31s" cx="268.0" cy="150" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:0.69s" cx="302.0" cy="150" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.37s" cx="268.0" cy="150" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.31s" cx="302.0" cy="150" r="8" fill="#30d158"/>
 <circle cx="336.0" cy="150" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="370.0" cy="150" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:1.19s" cx="404.0" cy="150" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.34s" cx="404.0" cy="150" r="8" fill="#30d158"/>
 <circle cx="438.0" cy="150" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:0.25s" cx="472.0" cy="150" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:2.57s" cx="506.0" cy="150" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:2.49s" cx="472.0" cy="150" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.44s" cx="506.0" cy="150" r="8" fill="#30d158"/>
 <circle cx="540.0" cy="150" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:0.15s" cx="574.0" cy="150" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:1.43s" cx="574.0" cy="150" r="8" fill="#30d158"/>
 <text x="816" y="156" text-anchor="end" font-size="16" font-weight="700" fill="#eafff0">2,861</text>
 <text class="l" x="24" y="191" font-size="13">active_days</text>
 <circle cx="200.0" cy="186" r="8" fill="#050d07" stroke="#0f3d1c"/>
@@ -62,11 +62,11 @@
 <circle cx="268.0" cy="186" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="302.0" cy="186" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="336.0" cy="186" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:0.78s" cx="370.0" cy="186" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:1.63s" cx="370.0" cy="186" r="8" fill="#30d158"/>
 <circle cx="404.0" cy="186" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:1.99s" cx="438.0" cy="186" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.08s" cx="438.0" cy="186" r="8" fill="#30d158"/>
 <circle cx="472.0" cy="186" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:2.14s" cx="506.0" cy="186" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:0.25s" cx="506.0" cy="186" r="8" fill="#30d158"/>
 <circle cx="540.0" cy="186" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="574.0" cy="186" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <text x="816" y="192" text-anchor="end" font-size="16" font-weight="700" fill="#eafff0">84</text>
@@ -77,10 +77,10 @@
 <circle cx="302.0" cy="222" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="336.0" cy="222" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="370.0" cy="222" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:1.36s" cx="404.0" cy="222" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:1.56s" cx="438.0" cy="222" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:2.26s" cx="404.0" cy="222" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:1.53s" cx="438.0" cy="222" r="8" fill="#30d158"/>
 <circle cx="472.0" cy="222" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:0.73s" cx="506.0" cy="222" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:1.10s" cx="506.0" cy="222" r="8" fill="#30d158"/>
 <circle cx="540.0" cy="222" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="574.0" cy="222" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <text x="816" y="228" text-anchor="end" font-size="16" font-weight="700" fill="#eafff0">52</text>
@@ -93,9 +93,9 @@
 <circle cx="370.0" cy="258" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="404.0" cy="258" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="438.0" cy="258" r="8" fill="#050d07" stroke="#0f3d1c"/>
-<circle class="on" style="animation-delay:1.80s" cx="472.0" cy="258" r="8" fill="#30d158"/>
-<circle class="on" style="animation-delay:0.76s" cx="506.0" cy="258" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:1.72s" cx="472.0" cy="258" r="8" fill="#30d158"/>
+<circle class="on" style="animation-delay:2.36s" cx="506.0" cy="258" r="8" fill="#30d158"/>
 <circle cx="540.0" cy="258" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <circle cx="574.0" cy="258" r="8" fill="#050d07" stroke="#0f3d1c"/>
 <text x="816" y="264" text-anchor="end" font-size="16" font-weight="700" fill="#eafff0">12</text>
-<rect width="840" height="322" rx="22" fill="url(#sl)"/><circle cx="24" cy="305" r="3" fill="#30d158"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle><text class="l m" x="34" y="309" font-size="10">LIVE FEED // synced 2026-11-02 06:39 UTC</text></svg>
+<rect width="840" height="322" rx="22" fill="url(#sl)"/><circle cx="24" cy="305" r="3" fill="#30d158"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle><text class="l m" x="34" y="309" font-size="10">LIVE FEED // synced 2026-11-02 06:46 UTC</text></svg>
