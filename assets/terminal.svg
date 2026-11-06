@@ -30,4 +30,4 @@
 <text xml:space="preserve" x="28" y="204" fill="#30d158" font-size="15" clip-path="url(#k5)">&gt; streak: 0 days   longest: 15 days   active days: 84</text>
 <text xml:space="preserve" x="28" y="230" fill="#eafff0" font-size="15" clip-path="url(#k6)">&gt; ACCESS GRANTED</text>
 <text x="28" y="258" font-size="15" fill="#30d158">$ <tspan class="blink">_</tspan></text>
-<rect width="840" height="292" rx="22" fill="url(#sl)"/><circle cx="24" cy="275" r="3" fill="#30d158"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle><text class="l m" x="34" y="279" font-size="10">LIVE FEED // synced 2026-11-05 22:37 UTC</text></svg>
+<rect width="840" height="292" rx="22" fill="url(#sl)"/><circle cx="24" cy="275" r="3" fill="#30d158"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle><text class="l m" x="34" y="279" font-size="10">LIVE FEED // synced 2026-11-06 03:00 UTC</text></svg>
